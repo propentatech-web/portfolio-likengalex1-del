@@ -1,63 +1,76 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="./CSS/style.css">
 </head>
+
 <body>
     <header>
-    <h1>NWOS LIKENG SOUOP ERIC-ALEXANDRE PAVEL</h1>
-    <p>Je suis NWOS LIKENG SOUOP ERIC-ALEXANDRE PAVEL, étudiant en informatique fondamental Niveau 1 à l'université de yaoundé 1</p>
-    </header>
-    <h2>Menu de Navigation</h2>
+        <h1 class="titre">NWOS LIKENG SOUOP ERIC-ALEXANDRE PAVEL</h1>
+        <h2 class="sous-titre">Menu de Navigation</h2>
     <nav>
-        <ul>
-            <li><a href="">Accueil</a></li>
-            <li><a href="">A propos</a></li>
-            <li><a href="">Competence</a></li>
-            <li><a href="">Parcour</a></li>
-            <li><a href="">Contact</a></li>
+        <ul class="nav-link">
+            <li><a href="#Accueil">Accueil</a></li>
+            <li><a href="#A propos">A propos</a></li>
+            <li><a href="#Competence">Competence</a></li>
+            <li><a href="#Parcour">Parcour</a></li>
+            <li><a href="#Contact">Contacts</a></li>
+            <li><a href="#Email">Adresse Email</a></li>
         </ul>
     </nav>
-    <h2>A propos</h2>
-        <p>je me nomme, ERIC-ALEXANDRE, je suis dévéloppeur web passioné par les creation interactifs et moderne
-        <br>je crée des sites web responsive,des application et interaction interactifs mon objectif est de transformer des idée complexes en expérience visuelles simple et efficace
+    <h2 class="sous-titre" id="Accueil">Accueil</h2>
+        <p>Je suis NWOS LIKENG SOUOP ERIC-ALEXANDRE PAVEL, étudiant en informatique fondamental Niveau 1 à l'université
+            de yaoundé 1</p>
+    </header>
+    <h2 class="sous-titre" id="A propos">A propos</h2>
+    <p>je me nomme, ERIC-ALEXANDRE, je suis dévéloppeur web passioné par les creation interactifs et moderne
+        <br>je crée des sites web responsive,des application interactifs, mon objectif est de transformer
+        des idée complexes en expérience visuelles simple et efficace
         <br>découvrez mes projets ci dessous.
-        <div><img src="20251002_184005.jpg" width="300" height="400"></div>
-        <section>
-            <h2>Competénces</h2>
-            <ul>
-                <li>Création de Formulaire</li>
-                <li>Création de Portfolio</li>
-                <li>Débutant en Dévéloppement web</li>
-                <li>base en HtmL</li>
-                <li>Expert en burautique</li>
-            </ul>
-        </section>
-        <h2>Parcours</h2>
-        <table border="1">
-            <thead>
-                <tr>
-                    <th>Année</th>
-                    <th>Formation</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>2025</td>
-                    <td>Maintenance informatique</td>
-                </tr>
-                <tr>
-                    <td>2026</td>
-                    <td>Dévéloppement web</td>
-                </tr>
-            </tbody>
+    <div><img src="20251002_184005.jpg" width="300" height="400"></div>
+    <section>
+        <h2 class="sous-titre" id="Competence">Competénces</h2>
+        <ul class="list">
+            <li>Création de Formulaire</li>
+            <li>Création de Portfolio</li>
+            <li>Débutant en Dévéloppement web</li>
+            <li>base en HtmL</li>
+            <li>Expert en burautique</li>
+        </ul>
+    </section>
+    <h2 class="sous-titre" id="Parcour">Parcour</h2>
+    <table border="1" class="table">
+        <thead class="table-head">
+            <tr>
+                <th>Année</th>
+                <th>Formation</th>
+            </tr>
+        </thead>
+        <tbody class="table-body">
+            <tr>
+                <td>2025</td>
+                <td>Maintenance informatique</td>
+            </tr>
+            <tr>
+                <td>2026</td>
+                <td>Dévéloppement web</td>
+            </tr>
+        </tbody>
 
-        </table>
-        <footer>
-            <p>2026 - Portfolio de NWOS LIKENG SOUOP ERIC-ALEXANDRE PAVEL
-                <br>Ceci est le resumé de mon Parcour professionnel</p>
-        </footer>
+    </table>
+    <h2 class="sous-titre" id="Contact">Contacts</h2>
+    <P class="tel">TEL: 682699374/687477513</P>
+    <h2 class="sous-titre" id="Email">Adresse Email</h2>
+    <p class="mail">Email: likengalex1@gmail.com</p>
+    <footer class="foot">
+        <p>2026 - Portfolio de NWOS LIKENG SOUOP ERIC-ALEXANDRE PAVEL
+            <br>Ceci est le resumé de mon Parcour professionnel
+        </p>
+    </footer>
 </body>
+
 </html>
